@@ -16,7 +16,8 @@ The code generates every optional passwort with this 3 unkown numers X Y Z and w
 This is the generated passwordfile. It can be used from Programms like aircrack-ng because one of the passwords in this file is totaly shure the right password. (If it wasnt changed since the installing).
 But the code also trys to find the right one by his own. It generates the right bash code to try a connection.
 
-Looks like this: nmcli -t 5 device wifi con WLAN-DBMP6D password SP-60DFC0190
+Looks like this: 
+    nmcli -t 5 device wifi con WLAN-DBMP6D password SP-60DFC0190
 
 It just takes the Information from the SSID and the MAC and the generated password and tries to connect. After 5sec of trying and not connecting it kills hisself and try the next password.
 
