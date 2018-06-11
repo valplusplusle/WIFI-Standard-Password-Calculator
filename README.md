@@ -20,6 +20,6 @@ Looks like this: nmcli -t 5 device wifi con WLAN-DBMP6D password SP-60DFC0190
 
 It just takes the Information from the SSID and the MAC and the generated password and tries to connect. After 5sec of trying and not connecting it kills hisself and try the next password.
 
-#Disclaimer
+# Disclaimer
 
 Only use this on your own network! Hack other networks is illegal!
