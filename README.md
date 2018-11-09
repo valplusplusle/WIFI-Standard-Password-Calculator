@@ -1,6 +1,9 @@
-# Speedport-Standard-Password-Calculator
+# NOTE
+THIS code is ONLY for self-protection! Use it to test if your Router is involved in this problem! Keep in mind to change your passwords!
 
-The standard password for the WiFi on a Speedport device is calculated. 
+# Standard-Password-Calculator
+
+The standard password for the WiFi on a Speedport device is calculated. (on many other ISP too but this code is only to understand how the calculation works!) 
 They used an calculation with the SSID the MAC-Adress and the serielnumber.
 The calculation can be found here: https://www.wardriving-forum.de/wiki/Standardpassw%C3%B6rter
 
