@@ -11,7 +11,7 @@ read SSID
 echo -n 'MAC:'
 read MAC
 
-echo 'Where to save the password list?'
+echo 'choose where to save the password list?'
 echo -n 'Dateiname:'
 read Dateiname
 
