@@ -1,6 +1,9 @@
 # NOTE
 THIS code is ONLY for self-protection! Use it to test if your Router is involved in this problem! Keep in mind to change your passwords!
 
+# NEW
+I translated the Code to easy PHP. Now you have a interface and it works on every System. But only for creating a password List! Feel free to translate it to other things Like apps etc.
+
 # Standard-Password-Calculator
 
 The standard password for the WiFi on a Speedport device is calculated. (on many other ISP too but this code is only to understand how the calculation works!) 
