@@ -26,9 +26,9 @@
 			
 			<nav aria-label="breadcrumb">
 			  <ol class="breadcrumb">
-			    <li class="breadcrumb-item"><a href="#">Speedport</a></li>
-			    <li class="breadcrumb-item"><a href="#">Speedport</a></li>
-			    <li class="breadcrumb-item"><a href="#">Speedport</a></li>
+			    <li class="breadcrumb-item"><a href="index.php">Speedport</a></li>
+			    <li class="breadcrumb-item"><a href="https://www.zebradem.com/wiki/index.php?title=Router_Standardpassw%C3%B6rter">Others</a></li>
+			    <li class="breadcrumb-item"><a href="https://github.com/valplusplusle/WIFI-Standard-Password-Calculator">GitHub</a></li>
 			  </ol>
 			</nav>
 
