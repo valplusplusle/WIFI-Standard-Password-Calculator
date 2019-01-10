@@ -2,12 +2,13 @@
 	<head>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    	
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 		<script language="JavaScript">
 			function input (form) {
+				
 			    var SSID = form.ssid.value;
 			    var MAC = form.mac.value;
 			    var pre = "SP-";
@@ -16,11 +17,11 @@
 			    var D = SSID.charAt(SSID.length - 4);
 			    var E = SSID.charAt(SSID.length - 2);
 			    var F = SSID.charAt(SSID.length - 1);
-			    
+ 
 			    for (var x = 0; x < 10; x++) { 
 			    	for (var y = 0; y < 10; y++) { 
 			    		for (var z = 0; z < 10; z++) { 
-			    			document.getElementById("output").innerHTML += pre + G + z + H + D + E + F + x + y + z + "<br>"; 
+			    			document.getElementById("output").innerHTML += "<p class='list-group-item'>"+pre + G + z + H + D + E + F + x + y + z + "</p>"; 
 			    		}
 			    	}	
 			    }
