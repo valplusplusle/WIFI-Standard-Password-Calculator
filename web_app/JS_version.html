@@ -10,7 +10,20 @@
 			function input (form) {
 			    var SSID = form.ssid.value;
 			    var MAC = form.mac.value;
-			    alert ("You typed: " + SSID + MAC);
+			    var pre = "SP-";
+			    var G = SSID.charAt(SSID.length - 2);
+			    var H = SSID.charAt(SSID.length - 1);
+			    var D = SSID.charAt(SSID.length - 4);
+			    var E = SSID.charAt(SSID.length - 2);
+			    var F = SSID.charAt(SSID.length - 1);
+			    
+			    for (var x = 0; x < 10; x++) { 
+			    	for (var y = 0; y < 10; y++) { 
+			    		for (var z = 0; z < 10; z++) { 
+			    			document.getElementById("output").innerHTML += pre + G + z + H + D + E + F + x + y + z + "<br>"; 
+			    		}
+			    	}	
+			    }
 			}
 		</script>
 		
@@ -31,6 +44,8 @@
 				<p> MAC:	<input class="form-control" type="text" name="mac" value="">	</p>
 				<p>			<input class="btn btn-dark btn-lg btn-block" type="button" name="button" value="Calculate" onClick="input(this.form)"></p>
 			</form>
+			
+			<div id="output"></div>
 			
 		</div>
 	
