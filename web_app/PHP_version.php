@@ -33,7 +33,7 @@
 			</nav>
 
 			<div class="input">
-				<form action="index.php" method="post">
+				<form action="PHP_version.php" method="post">
 					<p>SSID:	<input type="text" name="ssid" class="form-control"/>	</p>
 					<p>MAC: 	<input type="text" name="mac" class="form-control"/>	</p>
 					<p>			<input type="submit" class="btn btn-dark btn-lg btn-block" value="Calculate"/>				</p>
