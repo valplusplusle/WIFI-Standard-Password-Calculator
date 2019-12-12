@@ -31,3 +31,6 @@ It just takes the Information from the SSID and the MAC and the generated passwo
 # Disclaimer
 
 Only use this on your own network! Hack other networks is illegal!
+
+# German Tutorial
+[![YT Video](https://img.youtube.com/vi/b2db1U-LhiA/0.jpg)](https://www.youtube.com/watch?v=b2db1U-LhiA)
